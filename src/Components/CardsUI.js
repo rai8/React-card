@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../images/img1.jpeg";
+
 import "../card-style.css";
 
 export default function Cards(props) {
@@ -7,7 +7,7 @@ export default function Cards(props) {
     <div>
       <div className="card-text-center">
         <div className="overflow">
-          <img src={img1} alt="image1" className="card-img-top" />
+          <img src={props.imgsrc} alt="image1" className="card-img-top" />
           <div className="card-body text-dark">
             <h4 className="card-title">Software Programmer</h4>
             <p className="card-text text-secondary">

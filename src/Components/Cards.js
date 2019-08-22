@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import CardsUI from "./CardsUI";
-
+import img1 from "../images/img1.jpeg";
+import img2 from "../images/img2.jpeg";
+import img3 from "../images/img3.jpeg";
 export default class Cards extends Component {
   render() {
     return (
@@ -8,15 +10,15 @@ export default class Cards extends Component {
         <div className="row">
           <div className="col-md-4">
             {" "}
-            <CardsUI />
+            <CardsUI imgsrc={img1} />
           </div>
           <div className="col-md-4">
             {" "}
-            <CardsUI />
+            <CardsUI imgsrc={img2} />
           </div>
           <div className="col-md-4">
             {" "}
-            <CardsUI />
+            <CardsUI imgsrc={img3} />
           </div>
         </div>
       </div>
