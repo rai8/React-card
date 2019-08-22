@@ -21,7 +21,7 @@ body {
   transform: scale(1);
 }
 .card-img-top:hover {
-  transform-origin: scale(1.5);
+  transform-origin: scale(1.8);
 }
 .image {
   height: 15em;
