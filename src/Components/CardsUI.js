@@ -9,7 +9,7 @@ export default function Cards(props) {
         <div className="overflow">
           <img src={props.imgsrc} alt="image1" className="card-img-top" />
           <div className="card-body text-dark">
-            <h4 className="card-title">Software Programmer</h4>
+            <h4 className="card-title">{props.title}</h4>
             <p className="card-text text-secondary">
               Just like a cowboy in a western, your “trigger” fingers start
               itching. You get a healthy buzz from the endless possibilities

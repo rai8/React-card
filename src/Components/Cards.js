@@ -10,18 +10,25 @@ export default class Cards extends Component {
         <div className="row">
           <div className="col-md-4">
             {" "}
-            <CardsUI imgsrc={img1} />
+            <CardsUI imgsrc={img1} title="Front-end Developer" />
           </div>
           <div className="col-md-4">
             {" "}
-            <CardsUI imgsrc={img2} />
+            <CardsUI
+              imgsrc={img2}
+              style={imgStyle.height}
+              title="Back-end Developer"
+            />
           </div>
           <div className="col-md-4">
             {" "}
-            <CardsUI imgsrc={img3} />
+            <CardsUI imgsrc={img3} title="Full stack Developer" />
           </div>
         </div>
       </div>
     );
   }
 }
+const imgStyle = {
+  height: 150
+};
