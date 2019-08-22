@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
+import Cards from "./Components/Cards";
 import * as serviceWorker from "./serviceWorker";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import CardsUI from "./Components/CardsUI";
 
-ReactDOM.render(<CardsUI />, document.getElementById("root"));
+ReactDOM.render(<Cards />, document.getElementById("root"));
 
 serviceWorker.unregister();

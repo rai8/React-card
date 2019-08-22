@@ -6,11 +6,13 @@ export default function Cards(props) {
     <div>
       <div className="card-text-center">
         <div className="overflow">
-          <img src={img1} alt="image1" />
+          <img src={img1} alt="image1" className="card-img-top" />
           <div className="card-body text-dark">
             <h4 className="card-title">Software Programmer</h4>
             <p className="card-text text-secondary">lorem201 </p>
-            <a href="#">Find more about them</a>
+            <button className="btn btn-outline-success">
+              Find more about them
+            </button>
           </div>
         </div>
       </div>
