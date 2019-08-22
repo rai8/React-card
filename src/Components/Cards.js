@@ -3,6 +3,7 @@ import CardsUI from "./CardsUI";
 import img1 from "../images/img1.jpeg";
 import img2 from "../images/img2.jpeg";
 import img3 from "../images/img3.jpeg";
+
 export default class Cards extends Component {
   render() {
     return (
@@ -14,11 +15,7 @@ export default class Cards extends Component {
           </div>
           <div className="col-md-4">
             {" "}
-            <CardsUI
-              imgsrc={img2}
-              style={imgStyle.height}
-              title="Back-end Developer"
-            />
+            <CardsUI imgsrc={img2} title="Back-end Developer" />
           </div>
           <div className="col-md-4">
             {" "}
@@ -29,6 +26,3 @@ export default class Cards extends Component {
     );
   }
 }
-const imgStyle = {
-  height: 150
-};

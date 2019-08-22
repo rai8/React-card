@@ -17,3 +17,12 @@ body {
 .container-fluid {
   padding-top: 6rem;
 }
+.card-img-top {
+  transform: scale(1);
+}
+.card-img-top:hover {
+  transform-origin: scale(1.5);
+}
+.image {
+  height: 15em;
+}
